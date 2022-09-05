@@ -84,14 +84,14 @@ nav {
   flex-basis: 25%;
   position: sticky;
   top: 70px;
-  align-items: flex-start;
+  align-self: flex-start;
 }
 .right-sidebar {
   /* background: #cbdffa; */
   flex-basis: 25%;
   position: sticky;
   top: 70px;
-  align-items: flex-start;
+  align-self: flex-start;
   background: #fff;
   padding: 1.2rem;
   border-radius: 0.2rem;
@@ -312,5 +312,72 @@ i {
 .add-post-links a img{
     width: 1.2rem;
     margin-right: 10px;
+}
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+.user-profile span{
+    font-size: 0.9rem;
+    color: #9a9a9a;
+}
+.post-text{
+    color: #9a9a9a;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.post-text span{
+    color: #626262;
+    font-weight: 500;
+}
+.post-text a{
+    color: #1876f2;
+    text-decoration: none;
+
+}
+.post-img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icons div img{
+    width: 1.1rem;
+    margin-right: 10px;
+}
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.post-profile-icon{
+    display: flex;
+    align-items: center;
+}
+.post-profile-icon img{
+    width: 1.2rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.post-row a{
+    color: #9a9a9a;
+}
+.load-more{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
 }
 
